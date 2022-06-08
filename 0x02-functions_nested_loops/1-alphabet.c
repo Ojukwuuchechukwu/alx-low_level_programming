@@ -1,17 +1,18 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_alphabet  - print a - z in alphabetical oreder
- * followed by a next line
+ * print_alphabet - print alphabet in lower case
+ *
+ * Return: void
+ * print_alphabet: lower cases only ' found in main.h
  */
 void print_alphabet(void)
 {
-	char ch;
+	char c;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(ch);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
