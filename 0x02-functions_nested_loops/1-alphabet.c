@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabetm -print a - z in alphabetical oreder
+ * print_alphabet -print a - z in alphabetical oreder
  * followed by a next line
  */
 void print_alphabet(void)
